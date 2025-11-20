@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mongoose": "^8.19.0"
+  },
+  "devDependencies": {
+    "@jazim/mock-mongoose": "^1.0.1"
+  }
+}
