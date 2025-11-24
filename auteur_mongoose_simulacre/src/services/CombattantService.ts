@@ -73,10 +73,10 @@ async function updateOne(combattant: ICombattant): Promise<void> {
  */
 async function delete_(id: string): Promise<void> {
   const persists = await CombattantRepo.getOne(id); 
-    if (!persists) {    
-        throw new RouteError(HttpStatusCodes.NOT_FOUND, COMBATTANT_NOT_FOUND_ERR);
-    }
-    return CombattantRepo.delete_(id);
+  if (!persists) {    
+    throw new RouteError(HttpStatusCodes.NOT_FOUND, COMBATTANT_NOT_FOUND_ERR);
+  }
+  return CombattantRepo.delete_(id);
 }
 
 /******************************************************************************

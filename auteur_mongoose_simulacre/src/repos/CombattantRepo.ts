@@ -55,7 +55,7 @@ async function add(combattant: ICombattant): Promise<void> {
  */
 async function update(combattant: ICombattant): Promise<void> {
   const combattantModifier = await Combattant.findById(combattant.id);
-  if (combattantModifier === null) { throw new Error("Combattant non trouvé");}
+  if (combattantModifier === null) { throw new Error('Combattant non trouvé');}
   
   combattantModifier.nom = combattant.nom;
   combattantModifier.prenom = combattant.prenom;
@@ -76,7 +76,7 @@ async function update(combattant: ICombattant): Promise<void> {
  * Supprimer un combattant
  */
  
- async function delete_(id: string): Promise<void> {
+async function delete_(id: string): Promise<void> {
   await Combattant.findByIdAndDelete(id);
 }     
 

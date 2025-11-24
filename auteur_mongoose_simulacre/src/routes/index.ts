@@ -12,15 +12,9 @@ import { Combattant } from '@src/models/combattants';
 const apiRouter = Router();
 
 function validateCombattant(req: Request, res: Response, next: NextFunction) {
-  if (req.body === null) {
-    res
-      .status(HttpStatusCodes.BAD_REQUEST)
-      .send({ error: 'COmbattant requis' })
-      .end();
-    return;
-  }
-
-  if (req.body.facture === null) {
+  const body = req.body as Record<string, unknown>;
+  
+  if (body === null || body === undefined) {
     res
       .status(HttpStatusCodes.BAD_REQUEST)
       .send({ error: 'Combattant requis' })
@@ -28,7 +22,15 @@ function validateCombattant(req: Request, res: Response, next: NextFunction) {
     return;
   }
 
-  const nouveauCombattant = new Combattant(req.body.combattant);
+  if (!body.combattant) {
+    res
+      .status(HttpStatusCodes.BAD_REQUEST)
+      .send({ error: 'Combattant requis' })
+      .end();
+    return;
+  }
+
+  const nouveauCombattant = new Combattant(body.combattant);
   const error = nouveauCombattant.validateSync();
   if (error !== null && error !== undefined) {
     res.status(HttpStatusCodes.BAD_REQUEST).send(error).end();

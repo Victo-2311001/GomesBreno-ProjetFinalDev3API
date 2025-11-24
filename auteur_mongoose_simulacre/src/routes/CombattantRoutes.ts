@@ -26,27 +26,27 @@ async function getOne(req: IReq, res: IRes) {
  * Extraire tous les combattants par leurs catégories
  */
 async function getByCategorie(req: IReq, res: IRes) {   
-    const { categorie } = req.params;
-    const combattants = await CombattantService.getByCategorie(categorie as string);
-    return res.status(HttpStatusCodes.OK).json({ combattants });
+  const { categorie } = req.params;
+  const combattants = await CombattantService.getByCategorie(categorie as string);
+  return res.status(HttpStatusCodes.OK).json({ combattants });
 }   
 
 /**
  * Extraire tous les combattants par une technique favorite
  */ 
 async function getByTechniqueFavorite(req: IReq, res: IRes) {
-    const { technique } = req.params;
-    const combattants = await CombattantService.getByTechniqueFavorite(technique as string);
-    return res.status(HttpStatusCodes.OK).json({ combattants });
+  const { technique } = req.params;
+  const combattants = await CombattantService.getByTechniqueFavorite(technique as string);
+  return res.status(HttpStatusCodes.OK).json({ combattants });
 }
 
 /**
  * Extraire tous les combattants par leurs nationalité
  */
 async function getByNationalite(req: IReq, res: IRes) {
-    const { nationalite } = req.params;
-    const combattants = await CombattantService.getByNationalite(nationalite as string);
-    return res.status(HttpStatusCodes.OK).json({ combattants });
+  const { nationalite } = req.params;
+  const combattants = await CombattantService.getByNationalite(nationalite as string);
+  return res.status(HttpStatusCodes.OK).json({ combattants });
 }
 
 /**

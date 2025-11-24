@@ -4,9 +4,9 @@
   "scripts": {
     "build": "ts-node ./scripts/build.ts",
     "clean-install": "rm -rf ./node_modules && rm -r package-lock.json && npm i",
-    "dev": "cross-env NODE_ENV=development ts-node ./src",
+    "dev": "node --env-file=.env -r ts-node/register ./src", 
     "dev:hot": "cross-env nodemon --exec \"npm run dev\" --watch ./src --ext .ts",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "start": "NODE_ENV=production node -r ./config.js ./dist",
     "test": "NODE_ENV=test vitest",
     "type-check": "tsc --noEmit"
