@@ -19,6 +19,7 @@ export interface ICombattant {
   defaites: number;
   ufcChampion: boolean;
   techniqueFavorite: string[];
+  urlImage?: string;
   matchRecents: IMatchesRecents[];
 }
 
@@ -40,6 +41,7 @@ const CombattantSchema = new Schema<ICombattant>({
   defaites: { type: Number, required: false},
   ufcChampion: { type: Boolean, required: [true, 'Le status de champion ou pas doit être attribué au combattant']},
   techniqueFavorite: { type: [String], required: [true, 'La technique favorite du combattant est requise'], enum: ['Jiu-Jitsu', 'Lutte', 'Boxe', 'Kickboxing'], message: 'La technique favorite doit être Jiu-Jitsu, Lutte, Boxe ou Kickboxing'},
+  urlImage: { type: String, required: false},
   matchRecents: { type: [MatchRecentsSchema], required: [true, 'Les matchs recents sont requis']},
 });
 

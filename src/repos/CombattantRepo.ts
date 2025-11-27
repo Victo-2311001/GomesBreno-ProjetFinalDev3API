@@ -69,6 +69,7 @@ async function update(combattant: ICombattant): Promise<void> {
   combattantModifier.ufcChampion = combattant.ufcChampion;
   combattantModifier.techniqueFavorite = combattant.techniqueFavorite;
   combattantModifier.matchRecents = combattant.matchRecents;
+  combattantModifier.urlImage = combattant.urlImage;
   await combattantModifier.save();
 }
 
