@@ -11,7 +11,6 @@ export interface ICombattant {
   nom: string;
   prenom: string;
   surnom: string;
-  dateNaissance: Date;
   age: number;
   nationalite: string;
   categorie: string;
@@ -33,7 +32,6 @@ const CombattantSchema = new Schema<ICombattant>({
   nom: { type: String, required: [true, 'Le nom du combattant est requis'], maxlength: 100},
   prenom: { type: String, required: [true, 'Le prénom du combattant est requis'], maxlength: 100},
   surnom: { type: String, required: false, maxlength: 100},
-  dateNaissance: { type: Date, required: [true, 'La date de naissance du combattant est requise']},
   age: { type: Number, required: [true, 'L\'âge du combattant est requise'], min: [18, 'Le combattant doit avoir 18 ans ou plus']},
   nationalite: { type: String, required: [true, 'La nationalité du combattant est requise'], maxlength: [2, 'La nationalité doit être écrite au format ISO 3166-1 alpha-2 (\'BR\', \'US\', ...)']},
   categorie: { type: String, required: [true, 'La catégorie est requise'], enum: ['poids-mouches', 'poids-coqs', 'poids-plumes', 'poids-légers', 'poids-welters', 'poids-mi-moyens', 'poids-moyens', 'poids-mi-lourds', 'poids-lourds'], message: 'La catégorie doit être poids-mouches, poids-coqs, poids-plumes, poids-légers, poids-welters, poids-mi-moyens, poids-moyens, poids-mi-lourds ou poids-lourds'},

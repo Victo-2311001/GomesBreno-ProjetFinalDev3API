@@ -60,7 +60,6 @@ async function update(combattant: ICombattant): Promise<void> {
   combattantModifier.nom = combattant.nom;
   combattantModifier.prenom = combattant.prenom;
   combattantModifier.surnom = combattant.surnom;
-  combattantModifier.dateNaissance = combattant.dateNaissance;
   combattantModifier.age = combattant.age;
   combattantModifier.nationalite = combattant.nationalite;
   combattantModifier.categorie = combattant.categorie;
