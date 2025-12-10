@@ -1,3 +1,4 @@
+import { Utilisateur } from '@src/models/utilisateurs';
 
 export default {
   Base: '/api',
@@ -11,5 +12,9 @@ export default {
     Add: '/add',
     Update: '/update',
     Delete: '/delete/:id',
+  },
+  Utilisateur: {
+    Base: '/utilisateur',
+    GetByEmail: '/connexion/:email',
   },
 } as const;

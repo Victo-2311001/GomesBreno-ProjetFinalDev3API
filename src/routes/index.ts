@@ -4,6 +4,8 @@ import Paths from '@src/common/constants/Paths';
 import CombattantsRoutes from './CombattantRoutes';
 import HttpStatusCodes from '@src/common/constants/HttpStatusCodes';
 import { Combattant } from '@src/models/combattants';
+import { Utilisateur } from '@src/models/utilisateurs';
+import UtilisateurRoutes from './UtilisateurRoutes';
 
 /******************************************************************************
                                 Setup
@@ -42,6 +44,7 @@ function validateCombattant(req: Request, res: Response, next: NextFunction) {
 // ** Add UserRouter ** //
 
 const combattantRouter = Router();
+const utilisateurRouter = Router();
 
 
 combattantRouter.get(Paths.Combattants.Get, CombattantsRoutes.getAll);
@@ -53,7 +56,10 @@ combattantRouter.post(Paths.Combattants.Add, validateCombattant, CombattantsRout
 combattantRouter.put(Paths.Combattants.Update, CombattantsRoutes.update);
 combattantRouter.delete(Paths.Combattants.Delete, CombattantsRoutes.delete);
 
+utilisateurRouter.get(Paths.Utilisateur.GetByEmail, UtilisateurRoutes.getByEmail);
+
 apiRouter.use(Paths.Combattants.Base, combattantRouter);
+apiRouter.use(Paths.Utilisateur.Base, utilisateurRouter);
 
 // **** Export default **** //
 
