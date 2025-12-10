@@ -56,7 +56,7 @@ combattantRouter.post(Paths.Combattants.Add, validateCombattant, CombattantsRout
 combattantRouter.put(Paths.Combattants.Update, CombattantsRoutes.update);
 combattantRouter.delete(Paths.Combattants.Delete, CombattantsRoutes.delete);
 
-utilisateurRouter.get(Paths.Utilisateur.GetByEmail, UtilisateurRoutes.getByEmail);
+utilisateurRouter.post(Paths.Utilisateur.Connexion, UtilisateurRoutes.connexion);
 
 apiRouter.use(Paths.Combattants.Base, combattantRouter);
 apiRouter.use(Paths.Utilisateur.Base, utilisateurRouter);

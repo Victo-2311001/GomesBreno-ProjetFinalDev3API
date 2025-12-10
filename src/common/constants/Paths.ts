@@ -1,5 +1,3 @@
-import { Utilisateur } from '@src/models/utilisateurs';
-
 export default {
   Base: '/api',
   Combattants: {
@@ -15,6 +13,6 @@ export default {
   },
   Utilisateur: {
     Base: '/utilisateur',
-    GetByEmail: '/connexion/:email',
+    Connexion: '/connexion',
   },
 } as const;
