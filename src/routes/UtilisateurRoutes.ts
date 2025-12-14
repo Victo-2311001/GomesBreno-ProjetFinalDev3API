@@ -2,6 +2,7 @@ import HttpStatusCodes from '@src/common/constants/HttpStatusCodes';
 import { IReq, IRes } from './common/types';
 import UtilisateurService from '@src/services/UtilisateurService';
 
+
 async function connexion(req: IReq, res: IRes) {
   const { email, motDePasse } = req.body as { email: string; motDePasse: string }; 
   
@@ -13,7 +14,6 @@ async function connexion(req: IReq, res: IRes) {
       message: 'Email ou mot de passe incorrect' 
     });
   }
-  
 
   if (utilisateur.motDePasse != motDePasse) {
     return res.status(HttpStatusCodes.UNAUTHORIZED).json({ 

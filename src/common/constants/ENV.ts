@@ -12,6 +12,7 @@ const ENV = jetEnv({
   NodeEnv: isEnumVal(NodeEnvs),
   Port: num,
   Mongodb: str,
+  Jwtsecret: str,
 });
 
 
