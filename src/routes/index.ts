@@ -58,14 +58,14 @@ combattantRouter.delete(Paths.Combattants.Delete, CombattantsRoutes.delete);
 
 utilisateurRouter.post(Paths.Utilisateur.Connexion, UtilisateurRoutes.connexion);
 
-//Documentation des routes (Idée trouvé avec l'aide de l'IA mais réalisé par moi même)
+//Documentation des routes (Idée proposée par l'IA mais réalisé par moi même)
 
 apiRouter.get('/', (req: Request, res: Response) => {
   res.send(
     `<h1>API Combattants MMA</h1>
     <p>Documentation de toutes les routes disponibles</p>
 
-    <h2>Utilisaasdsateur</h2>
+    <h2>Utilisateur</h2>
     <ul>
       <li><b>POST</b> /api/utilisateur/connexion</li>
       <p> Connexion d'un utilisateur existant dans la base de donnée. </p>

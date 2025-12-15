@@ -1,0 +1,10 @@
+[{
+  "_id": "6760f9a87c5fd4e87c9c1a22",
+  "email": "admin@combattant.com",
+  "motDePasse": "motDePasse"
+},
+{
+  "_id": "6760f9a87c5fd4e87c9c2d22",
+  "email": "admin@admin.com",
+  "motDePasse": "admin"
+}]

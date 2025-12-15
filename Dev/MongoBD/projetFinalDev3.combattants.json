@@ -1,0 +1,826 @@
+[{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4770"
+  },
+  "nom": "Saint-Pierre",
+  "prenom": "Georges",
+  "surnom": "GSP",
+  "age": 42,
+  "nationalite": "CA",
+  "categorie": "poids-moyes",
+  "defaites": 2,
+  "ufcChampion": false,
+  "techniqueFavorite": "Lutte",
+  "urlImage": "https://www.mmaweekly.com/.image/t_share/MTk4NTIzOTAwMzU0ODMyMjk1/stpierremiller067ufc52.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Michael Bisping",
+      "date": "2023-03-10",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Nick Diaz",
+      "date": "2023-01-12",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 26
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4771"
+  },
+  "nom": "Makhachev",
+  "prenom": "Islam",
+  "surnom": "No Surrender",
+  "age": 32,
+  "nationalite": "RU",
+  "categorie": "poids-légers",
+  "defaites": 1,
+  "ufcChampion": true,
+  "techniqueFavorite": "Lutte",
+  "urlImage": "https://www.leparisien.fr/resizer/rq2qEscA73HPSjS2C2e-qqPkWlQ=/932x582/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/OQD7HERRSBFELLMB6LLBSDJWSE.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Charles Oliveira",
+      "date": "2023-06-05",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Dustin Poirier",
+      "date": "2023-03-12",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 24
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b476c"
+  },
+  "nom": "Silva",
+  "prenom": "Anderson",
+  "surnom": "The Spider",
+  "age": 48,
+  "nationalite": "BR",
+  "categorie": "poids-moyens",
+  "defaites": 11,
+  "ufcChampion": false,
+  "techniqueFavorite": "Boxe",
+  "urlImage": "https://platform.mmafighting.com/wp-content/uploads/sites/109/chorus/assets/3274597/anderson_silva.jpg?quality=90&strip=all&crop=0.055865921787714,0,99.888268156425,100",
+  "matchRecents": [
+    {
+      "adversaire": "Nate Diaz",
+      "date": "2023-06-12",
+      "resultat": "defaite"
+    },
+    {
+      "adversaire": "Michael Bisping",
+      "date": "2023-03-30",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 34
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b476d"
+  },
+  "nom": "Pereira",
+  "prenom": "Alex",
+  "surnom": "Poatan",
+  "age": 36,
+  "nationalite": "BR",
+  "categorie": "poids-moyens",
+  "defaites": 2,
+  "ufcChampion": true,
+  "techniqueFavorite": "Kickboxing",
+  "urlImage": "https://phantom.estaticos-marca.com/1d2dc79ef0835104ae7d2c78f6b35c43/resize/828/f/jpg/assets/multimedia/imagenes/2025/03/04/17411051118585.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Israel Adesanya",
+      "date": "2023-04-20",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Jared Cannonier",
+      "date": "2023-01-15",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 7
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b476a"
+  },
+  "nom": "Oliveira",
+  "prenom": "Charles",
+  "surnom": "Do Bronx",
+  "age": 36,
+  "nationalite": "BR",
+  "categorie": "poids-légers",
+  "defaites": 8,
+  "ufcChampion": true,
+  "techniqueFavorite": "Jiu-Jitsu",
+  "urlImage": "https://d2rppgzak84h35.cloudfront.net/media/profile_images/DoBronx.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Dustin Poirier",
+      "date": "2023-06-10",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Islam Makhachev",
+      "date": "2023-03-05",
+      "resultat": "defaite"
+    }
+  ],
+  "victoire": 32
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b476b"
+  },
+  "nom": "Jones",
+  "prenom": "Jon",
+  "surnom": "Bones",
+  "age": 36,
+  "nationalite": "US",
+  "categorie": "poids-mi-lourds",
+  "defaites": 1,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Lutte"
+  ],
+  "urlImage": "https://conteudo.imguol.com.br/c/esporte/00/2020/02/09/jon-jones-entra-no-octogono-para-enfrentar-dominick-reyes-1581271946974_v2_4x3.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Ciryl Gane",
+      "date": {
+        "$date": "2023-05-08T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "693dacf6ec198cd5284208e5"
+      }
+    },
+    {
+      "adversaire": "Francis Ngannou",
+      "date": {
+        "$date": "2023-01-20T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "693dacf6ec198cd5284208e6"
+      }
+    }
+  ],
+  "victoire": 26,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b476f"
+  },
+  "nom": "Topuria",
+  "prenom": "Ilia",
+  "surnom": "El Matador",
+  "age": 28,
+  "nationalite": "GE",
+  "categorie": "poids-plumes",
+  "defaites": 1,
+  "ufcChampion": false,
+  "techniqueFavorite": "Jiu-Jitsu",
+  "urlImage": "https://media.licdn.com/dms/image/v2/D5610AQEgqDHsVnMZaw/image-shrink_800/image-shrink_800/0/1708238969526?e=2147483647&v=beta&t=rsMiqg4jnJGY3nYbHPZW3K9hKFRECNfxu8txYdilV6o",
+  "matchRecents": [
+    {
+      "adversaire": "Alexander Volkanovski",
+      "date": "2023-05-05",
+      "resultat": "defaite"
+    },
+    {
+      "adversaire": "Cub Swanson",
+      "date": "2023-02-10",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 16
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4772"
+  },
+  "nom": "Dvalishvili",
+  "prenom": "Merab",
+  "surnom": "The Machine",
+  "age": 32,
+  "nationalite": "GE",
+  "categorie": "poids-coqs",
+  "defaites": 4,
+  "ufcChampion": false,
+  "techniqueFavorite": "Lutte",
+  "urlImage": "https://ufc.com/images/styles/background_image_sm/s3/2025-01/GettyImages-2172059359.jpg?h=d1cb525d&itok=LzMZHuJR",
+  "matchRecents": [
+    {
+      "adversaire": "Jose Aldo",
+      "date": "2023-05-20",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Dominick Cruz",
+      "date": "2023-02-28",
+      "resultat": "defaite"
+    }
+  ],
+  "victoire": 22
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b476e"
+  },
+  "nom": "McGregor",
+  "prenom": "Conor",
+  "surnom": "The Notorious",
+  "age": 35,
+  "nationalite": "IE",
+  "categorie": "poids-légers",
+  "defaites": 6,
+  "ufcChampion": false,
+  "techniqueFavorite": "Boxe",
+  "urlImage": "https://ufc.com/images/styles/background_image_sm/s3/2024-04/111216-Conor-McGregor-Belts-UFC-205-Hero.jpg?h=d1cb525d&itok=6V7cjuO9",
+  "matchRecents": [
+    {
+      "adversaire": "Dustin Poirier",
+      "date": "2023-07-10",
+      "resultat": "defaite"
+    },
+    {
+      "adversaire": "Donald Cerrone",
+      "date": "2023-03-12",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 22
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b477a"
+  },
+  "nom": "Chimaev",
+  "prenom": "Khamzat",
+  "surnom": "Borz",
+  "age": 29,
+  "nationalite": "SE",
+  "categorie": "poids-welters",
+  "defaites": 0,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Lutte"
+  ],
+  "urlImage": "https://www.lequipe.fr/_medias/img-photo-jpg/chimaev-a-ete-a-la-hauteur-de-son-enorme-reputation-en-remportant-sa-premiere-ceinture-ufc-geoff-ste/1500000002254232/276:0,1609:1333-828-828-75/38e04.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Gilbert Burns",
+      "date": {
+        "$date": "2023-06-18T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "693728ab4f9eaa94d8da96d3"
+      }
+    },
+    {
+      "adversaire": "Li Jingliang",
+      "date": {
+        "$date": "2023-03-12T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "693728ab4f9eaa94d8da96d4"
+      }
+    }
+  ],
+  "victoire": 12,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4777"
+  },
+  "nom": "Cormier",
+  "prenom": "Daniel",
+  "surnom": "DC",
+  "age": 45,
+  "nationalite": "US",
+  "categorie": "poids-lourds",
+  "defaites": 3,
+  "ufcChampion": false,
+  "techniqueFavorite": "Lutte",
+  "urlImage": "https://images.mykhel.com/img/2018/11/dc-ufc-230-1541309203.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Stipe Miocic",
+      "date": "2023-04-05",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Jon Jones",
+      "date": "2023-01-15",
+      "resultat": "defaite"
+    }
+  ],
+  "victoire": 22
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4776"
+  },
+  "nom": "Gaethje",
+  "prenom": "Justin",
+  "surnom": "The Highlight",
+  "age": 35,
+  "nationalite": "US",
+  "categorie": "poids-légers",
+  "defaites": 4,
+  "ufcChampion": false,
+  "techniqueFavorite": "Lutte",
+  "urlImage": "https://static01.nyt.com/images/2020/06/09/sports/09ufc-live14/09ufc-live14-mediumSquareAt3X.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Charles Oliveira",
+      "date": "2023-06-10",
+      "resultat": "defaite"
+    },
+    {
+      "adversaire": "Dustin Poirier",
+      "date": "2023-03-05",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 24
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4775"
+  },
+  "nom": "Holloway",
+  "prenom": "Max",
+  "surnom": "Blessed",
+  "age": 32,
+  "nationalite": "US",
+  "categorie": "poids-plumes",
+  "defaites": 7,
+  "ufcChampion": false,
+  "techniqueFavorite": "Boxe",
+  "urlImage": "https://www.reuters.com/resizer/v2/7SXCOXTI75OPNINMSVMQZHNRAI.jpg?auth=d73f2143ce86baeb7e2f3df9a923a0bbbd0695b3f5ca5958d434e283ab59ef89&width=1080&quality=80",
+  "matchRecents": [
+    {
+      "adversaire": "Alexander Volkanovski",
+      "date": "2023-06-20",
+      "resultat": "defaite"
+    },
+    {
+      "adversaire": "Brian Ortega",
+      "date": "2023-03-12",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 23
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4774"
+  },
+  "nom": "Poirier",
+  "prenom": "Dustin",
+  "surnom": "The Diamond",
+  "age": 36,
+  "nationalite": "US",
+  "categorie": "poids-légers",
+  "defaites": 7,
+  "ufcChampion": false,
+  "techniqueFavorite": "Boxe",
+  "urlImage": "https://www.gannett-cdn.com/authoring/authoring-images/2025/07/19/SMMA/85284664007-dustin.jpg?auto=webp&width=3840&quality=75",
+  "matchRecents": [
+    {
+      "adversaire": "Conor McGregor",
+      "date": "2023-07-10",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Charles Oliveira",
+      "date": "2023-06-10",
+      "resultat": "defaite"
+    }
+  ],
+  "victoire": 28
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4779"
+  },
+  "nom": "Prates",
+  "prenom": "Carlos",
+  "surnom": "The Panther",
+  "age": 31,
+  "nationalite": "BR",
+  "categorie": "poids-légers",
+  "defaites": 3,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Jiu-Jitsu"
+  ],
+  "urlImage": "https://thaishark.com/cdn/shop/articles/091124-carlos-prates-br-ufc-vegas-100-GettyImages-2183929543.jpg?v=1744386922",
+  "matchRecents": [
+    {
+      "adversaire": "Dustin Poirier",
+      "date": {
+        "$date": "2023-04-20T00:00:00.000Z"
+      },
+      "resultat": "defaite",
+      "_id": {
+        "$oid": "69372a3d4f9eaa94d8da9940"
+      }
+    },
+    {
+      "adversaire": "Conor McGregor",
+      "date": {
+        "$date": "2023-01-15T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "69372a3d4f9eaa94d8da9941"
+      }
+    }
+  ],
+  "victoire": 12,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b4773"
+  },
+  "nom": "O'Malley",
+  "prenom": "Sean",
+  "surnom": "Sugar",
+  "age": 29,
+  "nationalite": "US",
+  "categorie": "Poids coq",
+  "defaites": 1,
+  "ufcChampion": false,
+  "techniqueFavorite": "Boxe",
+  "urlImage": "https://static.independent.co.uk/2023/08/20/06/newFile.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Pedro Munhoz",
+      "date": "2023-06-15",
+      "resultat": "victoire"
+    },
+    {
+      "adversaire": "Aljamain Sterling",
+      "date": "2023-03-01",
+      "resultat": "defaite"
+    }
+  ],
+  "victoire": 15,
+  "__V": 0
+},
+{
+  "_id": {
+    "$oid": "68debb741562a7b3899b477b"
+  },
+  "nom": "Pantoja",
+  "prenom": "Alexandre",
+  "surnom": "Papito",
+  "age": 33,
+  "nationalite": "BR",
+  "categorie": "poids-mouches",
+  "defaites": 7,
+  "ufcChampion": false,
+  "techniqueFavorite": "Boxe",
+  "urlImage": "https://platform.mmafighting.com/wp-content/uploads/sites/109/chorus/uploads/chorus_asset/file/24788539/1527027550.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400",
+  "matchRecents": [
+    {
+      "adversaire": "Brandon Moreno",
+      "date": "2023-05-10",
+      "resultat": "defaite"
+    },
+    {
+      "adversaire": "Deiveson Figueiredo",
+      "date": "2023-02-18",
+      "resultat": "victoire"
+    }
+  ],
+  "victoire": 24
+},
+{
+  "_id": {
+    "$oid": "693c466066e8569374b76c83"
+  },
+  "nom": "Cortez",
+  "prenom": "Tracy",
+  "surnom": "Baddie Roblox",
+  "age": 31,
+  "nationalite": "US",
+  "categorie": "poids-mouches",
+  "victoire": 12,
+  "defaites": 3,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Kickboxing"
+  ],
+  "urlImage": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/CORTEZ_TRACY_L_07-13.png?itok=Cps5bQos",
+  "matchRecents": [
+    {
+      "adversaire": "Blanchfield",
+      "date": {
+        "$date": "2025-11-15T00:00:00.000Z"
+      },
+      "resultat": "defaite",
+      "_id": {
+        "$oid": "693c466066e8569374b76c84"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693c4b0366e8569374b77262"
+  },
+  "nom": "Theux",
+  "prenom": "Killian",
+  "surnom": "Sport Expert",
+  "age": 20,
+  "nationalite": "FR",
+  "categorie": "poids-lourds",
+  "victoire": 18,
+  "defaites": 9,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Jiu-Jitsu"
+  ],
+  "urlImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/469738297_602989042075615_7292769915499063773_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CfH9mtnSfEkQ7kNvwHYuYpj&_nc_oc=AdlFTekCafn331bdL7-U_OxatM8NB_6-fO4Hw-s-3I0P1nmXpgsp-7HwjM2FhUZgIAs&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=JyutwdaxF6HeSZX3fKerZA&oh=00_Aflg3iwUiRqv-wiYCwM_iSSOzqxzwfKBrWMhVOnH7LxbMQ&oe=69422DB9",
+  "matchRecents": [
+    {
+      "adversaire": "Paolo Marino",
+      "date": {
+        "$date": "2024-12-10T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "693c4b0366e8569374b77263"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693c437b66e8569374b764f9"
+  },
+  "nom": "Dupras-Simard",
+  "prenom": "Félix",
+  "surnom": "The Predator",
+  "age": 19,
+  "nationalite": "CA",
+  "categorie": "poids-welters",
+  "victoire": 0,
+  "defaites": 0,
+  "ufcChampion": true,
+  "techniqueFavorite": [
+    "Boxe"
+  ],
+  "urlImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/516894339_10162359686932702_7072460245126081973_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=r6iMhQaIWEkQ7kNvwGcIOJ8&_nc_oc=AdnuXxFmv_gl-4hVt-NVfC9eoS60aaJDlfeS1RZorsyVFR_ddxon_mB5TzbrT9Ph4-E&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=xpoWtBN0dqFQA4y-RjcS7A&oh=00_Afl9-MLPmP__GyXJ20noKQ0UkiLhuea7NZ4NhDcw_engyQ&oe=694201C5",
+  "matchRecents": [
+    {
+      "adversaire": "Nathan Grondin",
+      "date": {
+        "$date": "2025-12-12T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "693c437b66e8569374b764fa"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "693c48af66e8569374b76dce"
+  },
+  "nom": "Grondin",
+  "prenom": "Nathan",
+  "surnom": "La Bedaine",
+  "age": 19,
+  "nationalite": "CA",
+  "categorie": "poids-mouches",
+  "victoire": 69,
+  "defaites": 67,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Jiu-Jitsu"
+  ],
+  "urlImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/514178823_10080007872064648_8346711037122020334_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=2VyAYda34awQ7kNvwHIOgJU&_nc_oc=AdlcrF0eZmTK2hq_wYqtn5p5ZC-jcatIQwtgN5_lt0x1fZU2qSSzNZIxlM9jNnb9kj4&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=q7oEO8AdHVJf1wpf2kOJLQ&oh=00_AfngT84nS5c1cqK5GkQqljIiJ2nKKbZ51Z4Jf9E6RcosAA&oe=694216E0",
+  "matchRecents": [
+    {
+      "adversaire": "Anthony Ramsay",
+      "date": {
+        "$date": "2025-11-11T00:00:00.000Z"
+      },
+      "resultat": "nul",
+      "_id": {
+        "$oid": "693c48af66e8569374b76dcf"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693c494866e8569374b76fb3"
+  },
+  "nom": "Ramsay",
+  "prenom": "Anthony",
+  "surnom": "La Polizia",
+  "age": 19,
+  "nationalite": "CA",
+  "categorie": "poids-mi-moyens",
+  "victoire": 0,
+  "defaites": 12,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Lutte"
+  ],
+  "urlImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/47688473_2786469944703813_329833052878405632_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=_Yfsn4AfuMMQ7kNvwFhsMI6&_nc_oc=AdlyoxxVstymYM9DsFiVE3bayAMQ6ugdOxRg5OIrIkP8mp-fbBHLrEwOcgC6gG6kfTI&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=xpwSMaFb0KpSY4c0oiY0wQ&oh=00_AflpG7Eo1raCxYmbghIDAbIoc1RASsWh6B_sKMCNqrYmvw&oe=6963A672",
+  "matchRecents": [
+    {
+      "adversaire": "Nathan Grondin",
+      "date": {
+        "$date": "2025-11-11T00:00:00.000Z"
+      },
+      "resultat": "nul",
+      "_id": {
+        "$oid": "693c494866e8569374b76fb4"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693c49c066e8569374b7705c"
+  },
+  "nom": "Bernier",
+  "prenom": "Derek",
+  "surnom": "Big D",
+  "age": 21,
+  "nationalite": "CA",
+  "categorie": "poids-welters",
+  "victoire": 6,
+  "defaites": 4,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Boxe"
+  ],
+  "urlImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/45019872_483197842166826_1449325474105786368_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=GSO1LO5XT8QQ7kNvwEjiw4c&_nc_oc=AdmYje3-6ShFYSNTBEfYvglreFTp3M4R0GXg5wBItIoVhylVRyuSSw-euY8hduD-mq4&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=iRc8FkY65rM2bJObAasGAA&oh=00_Afm00aOUBTsojcIrWBJEsV4gFIWH2tEB2WWzqKPSFgrtQA&oe=69639F00",
+  "matchRecents": [
+    {
+      "adversaire": "Breno Gomes Da Silva",
+      "date": {
+        "$date": "2025-06-18T00:00:00.000Z"
+      },
+      "resultat": "defaite",
+      "_id": {
+        "$oid": "693c49c066e8569374b7705d"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693c4a8c66e8569374b771b1"
+  },
+  "nom": "Marino",
+  "prenom": "Paolo",
+  "surnom": "Mailloche",
+  "age": 18,
+  "nationalite": "IT",
+  "categorie": "poids-mouches",
+  "victoire": 5,
+  "defaites": 3,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Boxe"
+  ],
+  "urlImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/481810548_1157057765803116_7528978443588526840_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=94e2a3&_nc_ohc=1plM4mo7FH8Q7kNvwFuKwIF&_nc_oc=AdlyRtSjYgSZ_yE6Rz9LSV74g3goaybx-h5QiPTez0y7pcx7e9PfVlm9x-MEtgWOzL0&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=9JOQXv-N2snhdSZIeZuBMA&oh=00_Afk2bRlYYzlUnPbPSHzWAVuWqSHkwBvShHgfxj35YZIbKQ&oe=694213E0",
+  "matchRecents": [
+    {
+      "adversaire": "Étincelle",
+      "date": {
+        "$date": "2023-12-12T00:00:00.000Z"
+      },
+      "resultat": "defaite",
+      "_id": {
+        "$oid": "693c4a8c66e8569374b771b2"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6937245b4f9eaa94d8da8fd2"
+  },
+  "nom": "Petr",
+  "prenom": "Yan",
+  "surnom": "",
+  "age": 32,
+  "nationalite": "RU",
+  "categorie": "poids-plumes",
+  "victoire": 12,
+  "defaites": 2,
+  "ufcChampion": true,
+  "techniqueFavorite": [
+    "Lutte"
+  ],
+  "urlImage": "https://sports.inquirer.net/files/2025/12/AP25341233419617.jpg",
+  "matchRecents": [
+    {
+      "adversaire": "Merab ",
+      "date": {
+        "$date": "2025-12-06T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "6937245b4f9eaa94d8da8fd3"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693c43eb66e8569374b766c2"
+  },
+  "nom": "Gomes Da Silva",
+  "prenom": "Breno",
+  "surnom": "El Bresiliano",
+  "age": 20,
+  "nationalite": "BR",
+  "categorie": "poids-mouches",
+  "victoire": 2,
+  "defaites": 4,
+  "ufcChampion": false,
+  "techniqueFavorite": [
+    "Boxe"
+  ],
+  "urlImage": "https://scontent.fymq2-1.fna.fbcdn.net/v/t39.30808-6/493725170_1079534627566687_1739063848553548707_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IpWq7NE_RoYQ7kNvwFEyqjE&_nc_oc=Adku3Mfs9NQAQu6Tvm5sOn7jqa5j5Mgj_0CQh3BrlI7lFsZcGQsfrpYmroRHiAyFb2E&_nc_zt=23&_nc_ht=scontent.fymq2-1.fna&_nc_gid=jMHLagDr6-XK0H2mE8h-Vg&oh=00_AflA6-Xy_KTG_--5vRlRQWbV9IaQZ1IkYI71Hgr1Egb_Iw&oe=69436A13",
+  "matchRecents": [
+    {
+      "adversaire": "Amy Geoffroy",
+      "date": {
+        "$date": "2025-12-02T00:00:00.000Z"
+      },
+      "resultat": "defaite",
+      "_id": {
+        "$oid": "693c43eb66e8569374b766c3"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d83afec198cd52841dbe5"
+  },
+  "nom": "Gracie",
+  "prenom": "Royce",
+  "surnom": "\"Arte suave\"",
+  "age": 20,
+  "nationalite": "BR",
+  "categorie": "poids-légers",
+  "victoire": 20,
+  "defaites": 0,
+  "ufcChampion": true,
+  "techniqueFavorite": [
+    "Jiu-Jitsu"
+  ],
+  "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCVuLIIzDjqnnIwUrk2BWMYjytNxhf487GTQ&s",
+  "matchRecents": [
+    {
+      "adversaire": "Gerauld Gordeaux",
+      "date": {
+        "$date": "2025-12-02T00:00:00.000Z"
+      },
+      "resultat": "victoire",
+      "_id": {
+        "$oid": "693d83afec198cd52841dbe6"
+      }
+    }
+  ],
+  "__v": 0
+}]
